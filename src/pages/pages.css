@@ -1,0 +1,41 @@
+.attributes > li {
+    font-size:11px;
+    list-style-type: none;
+    float: left;
+    width: 70%;
+    border:1px solid #DADADA;
+    padding:15px;
+    border-radius: 8px;
+    margin-right: 20px;
+    background-color: white;
+}
+.info ul{
+    display: flex;
+}
+.item-name{
+    font-weight: 600;
+    font-size: 14px;
+
+}
+.item-desc{
+    color:#DADADA;
+}
+.circle {
+    background: #456BD9;
+    clip-path: circle(50%);
+    height: 5em;
+    width: 5em;
+    position: absolute;
+    z-index: -1;
+    top: -2.4em;
+    left: -1.6em;
+}
+.info{
+margin-block-start: 6em;
+margin-left: 5em;
+}
+@media screen and (max-width: 759px) {
+    .info{
+        margin-left:1em;
+    }
+}
